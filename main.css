@@ -18,6 +18,9 @@ body{
     display:inline;
     justify-content: center;
   }
+  .typewriter{
+      width: 100%;
+  }
 
   /* DEMO-SPECIFIC STYLES */
 .typewriter h1 {
