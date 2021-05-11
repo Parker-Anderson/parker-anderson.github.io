@@ -26,7 +26,7 @@ body{
     background-color: rgb(41, 63, 41);
     background-image: url(pexels-romka-2034373.jpg);
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:cover;
     font-size: x-large;
     padding-bottom: 0;
    
