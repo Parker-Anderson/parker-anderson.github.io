@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 @media (min-width: 640px){
  
     
@@ -23,13 +24,23 @@
      
     }
 body{
-    background-color: rgb(41, 63, 41);
+    background-color: rgb(36, 35, 35);
     background-image: url(pexels-romka-2034373.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
     font-size: x-large;
     padding-bottom: 0;
    
+  }
+  .nav{
+      display: flex;
+      position: relative;
+      ;
+      background-position: center center;
+      background-attachment: fixed;
+    
   }
   .dropdown-item{
       font-family: 'Asap';
@@ -52,20 +63,21 @@ body{
       width: 100%;
       text-align: center;
       display: flex;
-      text-overflow:clip;
-      justify-content: center;
+      
+      
       
       padding-top: 20%;
+    
 
   }
 
   
 .typewriter h1 {
-    color:black;
+    color: rgb(56, 121, 56);
     font-weight: bolder;
     font-family:Arial, Helvetica, sans-serif;
-    font-size:200%;
-    overflow: hidden; 
+    font-size: 150%;
+     
     border-right: .15em solid red;
     white-space: nowrap; 
     margin: 0 auto;  
@@ -73,10 +85,11 @@ body{
     animation: 
       typing 3.5s steps(30, end),
       blink-caret .5s step-end infinite;
-      opacity: 70%;
+      opacity: 100%;
       
       
   }
+  
   
   
   @keyframes typing {
@@ -87,8 +100,10 @@ body{
   
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: orange }
+    50% { border-color: black; }
   }
+ 
+
   .card{
       margin-left: 38%;
       display: flex;
